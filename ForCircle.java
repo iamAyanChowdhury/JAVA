@@ -30,9 +30,11 @@ public class ForCircle {
         System.out.println((c.area()));
         System.out.println(c.perimeter());
         System.out.println(c.circumference());
-        System.out.println("_______");
+        System.out.println("");
 
         System.out.println((c1.area()));
+        System.out.println((c1.perimeter()));
+        System.out.println((c1.circumference()));
                                                        
     }
     

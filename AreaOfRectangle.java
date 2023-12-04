@@ -12,6 +12,7 @@ public class AreaOfRectangle
         breadth=sc.nextInt();
         area=length*breadth;
         System.out.println("The area is : " +area);
+        System.out.println("ayan");
 
         
 

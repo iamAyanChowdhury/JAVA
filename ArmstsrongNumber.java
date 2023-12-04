@@ -3,7 +3,7 @@ import java.lang.Math;
 public class ArmstsrongNumber
 {  
 //function to check if the number is Armstrong or not  
-static boolean isArmstrong(int n)   
+static int isArmstrong(int n)   
 {   
 int temp, digits=0, last=0, sum=0;    
 temp=n;   

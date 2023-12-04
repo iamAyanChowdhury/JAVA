@@ -3,7 +3,7 @@ import java.lang.Math;
 public class ArmstsrongNumber
 {  
 //function to check if the number is Armstrong or not  
-static int isArmstrong(int n)   
+static String isArmstrong(int n)   
 {   
 int temp, digits=0, last=0, sum=0;    
 temp=n;   
@@ -20,9 +20,9 @@ sum +=  (Math.pow(last, digits));
 temp = temp/10;   
 }  
 if(n==sum)   
-return true;      
+return "true";      
 else 
-return false;   
+return "false";   
 }   
 
 public static void  main(String args[])     
@@ -31,7 +31,7 @@ int num;
 Scanner sc= new Scanner(System.in);  
 System.out.print("Enter the number: ");  
 num=sc.nextInt();  
-if(isArmstrong(num))  
+if(isArmstrong(num).equals("true"))  
 {  
 System.out.print("Armstrong ");  
 }  
